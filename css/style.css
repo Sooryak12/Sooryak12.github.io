@@ -1,0 +1,103 @@
+body{
+    margin:0px;
+
+}
+.cen{
+    padding-bottom:5%;
+    padding-inline-start: 10%;
+    padding-top:10%;
+
+}
+.col{
+    display:flex;
+    width:100%;
+    height:100vh;
+
+
+
+    
+}
+.col1{
+    flex: 1.45;
+    padding-top: 40px;
+    
+     background-color: #342B2E;
+}
+.col2{
+    padding-left: 45px;
+    flex: 2;
+    padding-top: 40px;
+    padding-right: 10px;
+    background-color: #F8F0FF;
+}
+
+.col3{
+    flex: 3;
+    background-image:url('cropped.jpg');
+    background-size:cover;
+    background-position:center center;
+    background-color:grey;
+  
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.img{
+    
+    width: 100px;
+    height: 400px;
+    object-fit: cover
+}
+.LinkLayout{
+    display: flex;
+}
+.col1role{
+ color: #E2747B;
+ text-align:left;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.col1info{
+    text-align:left;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.name{
+    font-size: 50px;
+    line-height: 80px;
+    font-family:'Gill Sans MT';
+    text-align: left;
+    color:#F37B83;
+}
+.tagline{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #a88590;
+    text-align: left;
+    padding-right: 20px;
+   
+}
+.col2intro{
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    line-height: 10px;
+    font-weight: 400;
+    text-align: left;
+}
+.Links{
+    padding-top: 80px;
+    margin: 20px; 
+}
+
+a{
+    
+    text-decoration:none;
+    color:#7C3652;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
